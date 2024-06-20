@@ -1,0 +1,127 @@
+/* header */
+.info h6{
+    color: orange ;
+}
+.info h3{
+    color: rgb(232, 185, 99);
+}
+.resume a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.resume{
+    background: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 9px;
+}
+.resume:hover{
+    background-color: rgb(104, 104, 255);
+    border: 1px solid white;
+    color: white;
+    border-color: black;
+}
+/* nav bar */
+.navbar{
+    font-family:  Arial,;
+    font-weight: 700;
+}
+/* about me */
+.box {
+    border: 6px solid #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 300px; 
+    margin: 0 auto; 
+  }
+  .box img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  /* about list */
+    .aboutinfo{
+        color: orange;
+    }
+    .aboutinfo ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .aboutinfo ul li {
+      color: #ffffff; 
+      margin-bottom: 5px;
+    }
+    .aboutinfo ul li:nth-child(odd) {
+      color: #007bff; 
+    }
+    .aboutinfo ul li a{
+        color: aliceblue;
+    }
+/* skill */
+.skill p{
+    color: #c4d0dc;
+    font-weight: 700;
+}
+#skills .java{
+  width: 35px;
+}
+/* projects */
+.projectinfo h3{ color: rgb(234, 175, 88);}
+.projectinfo p {
+  color: #ffffff;
+}
+.projectbox1 {
+  border:  #fcfdfe ;
+  border-style: solid;
+  border-width: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 300px; 
+  margin: 0 auto;
+  position: relative; 
+}
+.projectbox1 img {
+  width: 100%; 
+  height: auto;
+}
+/* education */
+#education i{
+  font-size: 45px;
+  padding-left: 40%;
+}
+#education .card{
+  background:none;
+  color: white;
+  box-shadow: 0 0 10px orange;
+}
+#education h6{
+  color: #007bff !important; 
+}
+#education .card:hover{
+  box-shadow:  0 0 10px white;
+  background-color: rgb(19, 19, 19);
+}
+#education .card:hover i{
+  color: orange;
+}
+/* contact */
+
+.contact-section {
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+}
+.contact-section p{
+  color: #007bff;
+  font-weight: bold;
+}
+.contact-icons a {
+  color: rgb(253, 173, 0);
+  margin: 0 10px;
+  font-size: 24px;
+}
+.contact-icons a:hover{
+  color: #ffffff;
+  padding-left: 5px;
+}
+
